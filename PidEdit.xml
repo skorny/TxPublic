@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<OutTable xmlns="http://tempuri.org/PidEdit.xsd">
+	<InLogicalChannel pid ="1">
+		<PID>0x3f</PID>
+		<PID>0x1001</PID>
+		<PID>0x1002</PID>
+		<PID>0x1003</PID>
+		<PID>0x1012</PID>
+	  <Trafic trafic="IP"/>
+	  <Comment comment="first comment"/>
+  </InLogicalChannel>
+</OutTable>

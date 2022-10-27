@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xs:schema id="OutTable" targetNamespace="http://tempuri.org/PidEdit.xsd" xmlns:mstns="http://tempuri.org/PidEdit.xsd" xmlns="http://tempuri.org/PidEdit.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="OutTable" msdata:IsDataSet="true" msdata:Locale="ru-RU" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="LogicalChannel">
+          <xs:complexType>
+            <xs:attribute name="лк" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PID">
+          <xs:complexType>
+            <xs:attribute name="pid" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Trafic">
+          <xs:complexType>
+            <xs:attribute name="trafic" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Comment">
+          <xs:complexType>
+            <xs:attribute name="comment" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
